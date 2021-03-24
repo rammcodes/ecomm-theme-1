@@ -1,0 +1,27 @@
+.container {
+  max-width: 120rem;
+  margin: auto;
+  width: 90%;
+}
+
+.text {
+  &__hl {
+    color: #ff3263;
+  }
+}
+
+.heading-section {
+  @include fontTert;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  &--cent {
+    text-align: center;
+  }
+  &__main {
+    font-size: 4rem;
+  }
+}
+
+.mb-med {
+  margin-bottom: 3rem;
+}

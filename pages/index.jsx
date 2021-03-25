@@ -890,7 +890,7 @@ export default function Home() {
                 shopping with all the high quality products that we have on the
                 store..
               </p>
-              <button className="btn-primary">
+              <button className="btn-primary cta__bottom-btn-primary">
                 <span className="btn-primary__text">Get started shopping</span>
                 <img
                   src="./png/arrow-right-white.png"

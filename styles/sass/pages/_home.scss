@@ -88,7 +88,7 @@
       padding: 0 5rem;
     }
     @include respond(phone) {
-      padding: 0 2rem;
+      padding: 0 0 0 2rem;
     }
   }
   &__logo-cont {
@@ -132,9 +132,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @include respond(phone) {
+      width: 5rem;
+    }
   }
   &__action-icon {
     width: 1.4rem;
+    @include respond(phone) {
+      width: 2rem;
+    }
   }
 }
 

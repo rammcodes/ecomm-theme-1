@@ -863,12 +863,48 @@ export default function Home() {
                 want our customers to know what they will get.
               </p>
               <form className="cta__news-ltr-form">
-                <input type="text" className="cta__news-ltr-input" placeholder="Email Address" />
+                <input
+                  type="text"
+                  className="cta__news-ltr-input"
+                  placeholder="Email Address"
+                />
                 <button className="cta__news-ltr-submit">Subscribe</button>
               </form>
             </div>
             <div className="cta__news-ltr-img-cont">
-              <img src="./png/news-ltr-img.png" alt="img" className="cta__news-ltr-img" />
+              <img
+                src="./png/news-ltr-img.png"
+                alt="img"
+                className="cta__news-ltr-img"
+              />
+            </div>
+          </div>
+          <div className="cta__bottom">
+            <div className="cta__bottom-cont">
+              <h3 className="cta__bottom-title">
+                What more are you waiting for?
+              </h3>
+              <p className="cta__bottom-desc">
+                At Selential, we focus on Quality and Intergrity. So, always
+                want our customers to know what they will get. Get started
+                shopping with all the high quality products that we have on the
+                store..
+              </p>
+              <button className="btn-primary">
+                <span className="btn-primary__text">Get started shopping</span>
+                <img
+                  src="./png/arrow-right-white.png"
+                  alt="arrow"
+                  className="btn-primary__icon"
+                />
+              </button>
+            </div>
+            <div className="cta__bottom-img-cont">
+              <img
+                src="./png/chair-brown.png"
+                alt="chair"
+                className="cta__bottom-img"
+              />
             </div>
           </div>
         </div>

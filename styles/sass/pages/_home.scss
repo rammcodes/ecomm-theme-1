@@ -143,6 +143,13 @@
   position: relative;
   padding-top: 109px;
 
+  @include respond(tab-land) {
+    padding-top: 92px;
+  }
+  @include respond(tab-port) {
+    padding-top: 88px;
+  }
+
   @include respond(big-desktop) {
     padding-top: 121px;
   }
@@ -725,9 +732,9 @@
   &__contact-cont {
     margin-bottom: 4rem;
     @include respond(phone) {
-     &:last-child {
-       margin-bottom: 0;
-     } 
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
   &__contact-item {

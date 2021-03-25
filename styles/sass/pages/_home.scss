@@ -724,6 +724,11 @@
   }
   &__contact-cont {
     margin-bottom: 4rem;
+    @include respond(phone) {
+     &:last-child {
+       margin-bottom: 0;
+     } 
+    }
   }
   &__contact-item {
     display: flex;

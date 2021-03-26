@@ -25,7 +25,7 @@
   }
   &__img-cont {
     position: absolute;
-    right: -5%;
+    right: -10%;
     bottom: 0;
     width: 70rem;
   }
@@ -57,4 +57,49 @@
   &__item-icon {
     width: 0.6rem;
   }
+}
+
+.colln-main {
+  padding: 8rem 0;
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 4rem;
+  }
+  &__filters-cont {
+  }
+  &__filters-cont-item {
+    margin-bottom: 6rem;
+  }
+  &__filters-cont-item-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    @include fontTert;
+  }
+  &__filters-cont-select-filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    input {
+      margin-right: 1.5rem;
+      border: 0px;
+      width: 1.5rem;
+      height: 1.5rem;
+      color: red;
+      background: red;
+    }
+    label {
+      font-size: 1.6rem;
+      color: #323232;
+      
+    }
+  }
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5rem 4rem;
 }

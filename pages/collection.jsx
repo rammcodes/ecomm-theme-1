@@ -277,7 +277,9 @@ export default function Collection() {
                 />
               </div>
               <div className="nav-indicator__item">
-                <span className="nav-indicator__item-name nav-indicator__item-name--active">Chair Name</span>
+                <span className="nav-indicator__item-name nav-indicator__item-name--active">
+                  Chair Name
+                </span>
               </div>
             </div>
           </div>
@@ -287,6 +289,160 @@ export default function Collection() {
               className="colln-hero__img"
               alt="image"
             />
+          </div>
+        </div>
+      </section>
+      <section className="colln-main">
+        <div className="container">
+          <div className="colln-main__row">
+            <div className="colln-main__row-item">
+              <div className="colln-main__filters-cont">
+                <div className="colln-main__filters-cont-item">
+                  <h3 className="colln-main__filters-cont-item-title">
+                    Product Categories
+                  </h3>
+                  <ul className="colln-main__filters-cont-select-filters">
+                    <li className="colln-main__filters-cont-select-filter">
+                      <input type="radio" id="age1" name="age" value="30" />
+                      <label for="age1">All Categories</label>
+                    </li>
+                    <li className="colln-main__filters-cont-select-filter">
+                      <input type="radio" id="age1" name="age" value="30" />
+                      <label for="age1">Minimal</label>
+                    </li>
+                    <li className="colln-main__filters-cont-select-filter">
+                      <input type="radio" id="age1" name="age" value="30" />
+                      <label for="age1">Armchairs</label>
+                    </li>
+                    <li className="colln-main__filters-cont-select-filter">
+                      <input type="radio" id="age1" name="age" value="30" />
+                      <label for="age1">Accent Chairs</label>
+                    </li>
+                    <li className="colln-main__filters-cont-select-filter">
+                      <input type="radio" id="age1" name="age" value="30" />
+                      <label for="age1">Recliner Chairs</label>
+                    </li>
+                  </ul>
+                </div>
+                <div className="colln-main__filters-cont-item">
+                  <h3 className="colln-main__filters-cont-item-title">Price</h3>
+                  <ul className="colln-main__filters-cont-select-filters">
+                    <li className="colln-main__filters-cont-select-filter">
+                      <input type="radio" id="age1" name="age" value="30" />
+                      <label for="age1">$0 - $30</label>
+                    </li>
+                    <li className="colln-main__filters-cont-select-filter">
+                      <input type="radio" id="age1" name="age" value="30" />
+                      <label for="age1">$100 - $500</label>
+                    </li>
+                    <li className="colln-main__filters-cont-select-filter">
+                      <input type="radio" id="age1" name="age" value="30" />
+                      <label for="age1">$500 - $1000</label>
+                    </li>
+                    <li className="colln-main__filters-cont-select-filter">
+                      <input type="radio" id="age1" name="age" value="30" />
+                      <label for="age1">$1000 - $5000</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="colln-main__row-item">
+              <div className="colln-main__products">
+                <div className="products-grid">
+                  <div className="products-grid__item">
+                    <div className="product-preview">
+                      <div className="product-preview__img-cont">
+                        <img
+                          src="./png/product.png"
+                          alt=""
+                          className="product-preview__img"
+                        />
+                      </div>
+                      <h4 className="product-preview__name">
+                        Orla Kiely Laurel Walnut Feet
+                      </h4>
+                      <h5 className="product-preview__price">$290</h5>
+                    </div>
+                  </div>
+                  <div className="products-grid__item">
+                    <div className="product-preview">
+                      <div className="product-preview__img-cont">
+                        <img
+                          src="./png/product.png"
+                          alt=""
+                          className="product-preview__img"
+                        />
+                      </div>
+                      <h4 className="product-preview__name">
+                        Orla Kiely Laurel Walnut Feet
+                      </h4>
+                      <h5 className="product-preview__price">$290</h5>
+                    </div>
+                  </div>
+                  <div className="products-grid__item">
+                    <div className="product-preview">
+                      <div className="product-preview__img-cont">
+                        <img
+                          src="./png/product.png"
+                          alt=""
+                          className="product-preview__img"
+                        />
+                      </div>
+                      <h4 className="product-preview__name">
+                        Orla Kiely Laurel Walnut Feet
+                      </h4>
+                      <h5 className="product-preview__price">$290</h5>
+                    </div>
+                  </div>
+                  <div className="products-grid__item">
+                    <div className="product-preview">
+                      <div className="product-preview__img-cont">
+                        <img
+                          src="./png/product.png"
+                          alt=""
+                          className="product-preview__img"
+                        />
+                      </div>
+                      <h4 className="product-preview__name">
+                        Orla Kiely Laurel Walnut Feet
+                      </h4>
+                      <h5 className="product-preview__price">$290</h5>
+                    </div>
+                  </div>
+                  <div className="products-grid__item">
+                    <div className="product-preview">
+                      <div className="product-preview__img-cont">
+                        <img
+                          src="./png/product.png"
+                          alt=""
+                          className="product-preview__img"
+                        />
+                      </div>
+                      <h4 className="product-preview__name">
+                        Orla Kiely Laurel Walnut Feet
+                      </h4>
+                      <h5 className="product-preview__price">$290</h5>
+                    </div>
+                  </div>
+                  <div className="products-grid__item">
+                    <div className="product-preview">
+                      <div className="product-preview__img-cont">
+                        <img
+                          src="./png/product.png"
+                          alt=""
+                          className="product-preview__img"
+                        />
+                      </div>
+                      <h4 className="product-preview__name">
+                        Orla Kiely Laurel Walnut Feet
+                      </h4>
+                      <h5 className="product-preview__price">$290</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -117,9 +117,22 @@
     cursor: pointer;
   }
 
+  &__shop-dd-wrapper {
+    position: fixed;
+    width: 100%;
+    top: 109px;
+    left: 0;
+    z-index: 150;
+
+    @include respond(tab-land) {
+      top: 92px;
+    }
+  }
+
   &__shop-dd {
+    z-index: 200;
     position: absolute;
-    top: 99%;
+    top: 50%;
     left: 50%;
     width: 120rem;
     transform: translateX(-50%);
@@ -128,14 +141,18 @@
     transition: all 1s;
 
     @include respond(tab-land) {
-      width: 90%;
+      width: 98%;
+    }
+    @include respond(tab-port) {
+      display: none;
     }
   }
   &__shop-dd-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
   }
   &__shop-dd-row-item {
-    padding: 4rem;
+    padding: 5rem 3rem;
   }
   &__shop-dd-new-arrival-cont {
     display: grid;
@@ -145,6 +162,7 @@
   &__shop-dd-new-arrival-title {
     margin-bottom: 2.5rem;
     font-size: 1.8rem;
+    color: #000;
   }
   &__shop-dd-new-arrival-item {
     padding: 2rem 2rem 0 2rem;
@@ -153,7 +171,10 @@
   &__shop-dd-new-arrival-item-name {
     color: #505050;
     margin-bottom: 3px;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+  }
+  &__shop-dd-new-arrival-item-price {
+    color: #000;
   }
   &__shop-dd-new-arrival-item-img-cont {
     text-align: center;
@@ -161,9 +182,32 @@
   &__shop-dd-new-arrival-item-img {
     width: 70%;
   }
+  &__link {
+    &:hover {
+      color: #ff3263;
+    }
+  }
+  &__link-dd {
+    position: relative;
+    &:hover::after {
+      content: '';
+      position: absolute;
+      top: calc(100% - 1.4rem);
+      left: 50%;
+      transform: translateX(-50%);
+
+      width: 4rem;
+      height: 1.5rem;
+      z-index: 1000;
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  }
   &__link-text {
     font-weight: 700;
     font-size: 1.4rem;
+    transition: all 0.2s;
   }
   &__link-icon {
     width: 1rem;
@@ -834,9 +878,11 @@
   &__heading {
     font-size: 1.8rem;
     margin-bottom: 2.5rem;
+    color: #000;
   }
   &__item {
     font-size: 1.4rem;
     margin-bottom: 2rem;
+    color: #000;
   }
 }

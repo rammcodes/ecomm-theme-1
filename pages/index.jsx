@@ -9,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
+
       <header className="main-header">
         <div className="main-header__top">
           <div className="main-header__top-main">
@@ -218,7 +219,7 @@ export default function Home() {
                 ) : null}
               </li>
               <li
-                className="main-header__link"
+                className="main-header__link  main-header__link-dd"
                 onMouseEnter={() => {
                   setshopDropDown(true)
                 }}
@@ -255,117 +256,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* {shopDropDown ? (
-          <div className="main-header__shop-dd-wrapper">
-            <div className="main-header__shop-dd">
-              <div className="main-header__shop-dd-row">
-                <div className="main-header__shop-dd-row-item">
-                  <div className="common-list">
-                    <h4 className="common-list__heading">More Links</h4>
-                    <ul className="common-list__items">
-                      <li className="common-list__item">My account</li>
-                      <li className="common-list__item">Track your order</li>
-                      <li className="common-list__item">FAQ</li>
-                      <li className="common-list__item">Payment Methods</li>
-                      <li className="common-list__item">Shipping Guide</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="main-header__shop-dd-row-item">
-                  <div className="main-header__shop-dd-new-arrival">
-                    <h4 className="main-header__shop-dd-new-arrival-title">
-                      New arrival
-                    </h4>
-                    <div className="main-header__shop-dd-new-arrival-cont">
-                      <div className="main-header__shop-dd-new-arrival-item">
-                        <h5 className="main-header__shop-dd-new-arrival-item-name">
-                          Minimal Nicki Chair
-                        </h5>
-                        <span className="main-header__shop-dd-new-arrival-item-price">
-                          $250
-                        </span>
-                        <div className="main-header__shop-dd-new-arrival-item-img-cont">
-                          <img
-                            src="./png/chair-bl.png"
-                            alt=""
-                            className="main-header__shop-dd-new-arrival-item-img"
-                          />
-                        </div>
-                      </div>
-                      <div className="main-header__shop-dd-new-arrival-item">
-                        <h5 className="main-header__shop-dd-new-arrival-item-name">
-                          Minimal Nicki Chair
-                        </h5>
-                        <span className="main-header__shop-dd-new-arrival-item-price">
-                          $250
-                        </span>
-                        <div className="main-header__shop-dd-new-arrival-item-img-cont">
-                          <img
-                            src="./png/chair-bl.png"
-                            alt=""
-                            className="main-header__shop-dd-new-arrival-item-img"
-                          />
-                        </div>
-                      </div>
-                    </div>{' '}
-                  </div>
-                </div>
-                <div className="main-header__shop-dd-row-item">
-                  <div className="common-list">
-                    <h4 className="common-list__heading">More Links</h4>
-                    <ul className="common-list__items">
-                      <li className="common-list__item">My account</li>
-                      <li className="common-list__item">Track your order</li>
-                      <li className="common-list__item">FAQ</li>
-                      <li className="common-list__item">Payment Methods</li>
-                      <li className="common-list__item">Shipping Guide</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="main-header__shop-dd-row-item">
-                  <div className="main-header__shop-dd-new-arrival">
-                    <h4 className="main-header__shop-dd-new-arrival-title">
-                      Sale
-                    </h4>
-                    <div className="main-header__shop-dd-new-arrival-cont">
-                      <div className="main-header__shop-dd-new-arrival-item">
-                        <h5 className="main-header__shop-dd-new-arrival-item-name">
-                          Minimal Nicki Chair
-                        </h5>
-                        <span className="main-header__shop-dd-new-arrival-item-price">
-                          $250
-                        </span>
-                        <div className="main-header__shop-dd-new-arrival-item-img-cont">
-                          <img
-                            src="./png/chair-bl.png"
-                            alt=""
-                            className="main-header__shop-dd-new-arrival-item-img"
-                          />
-                        </div>
-                      </div>
-                      <div className="main-header__shop-dd-new-arrival-item">
-                        <h5 className="main-header__shop-dd-new-arrival-item-name">
-                          Minimal Nicki Chair
-                        </h5>
-                        <span className="main-header__shop-dd-new-arrival-item-price">
-                          $250
-                        </span>
-                        <div className="main-header__shop-dd-new-arrival-item-img-cont">
-                          <img
-                            src="./png/chair-bl.png"
-                            alt=""
-                            className="main-header__shop-dd-new-arrival-item-img"
-                          />
-                        </div>
-                      </div>
-                    </div>{' '}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        ) : null} */}
       </header>
+
       <section className="home-hero">
         <div className="container home-hero__container">
           <div className="home-hero__main">

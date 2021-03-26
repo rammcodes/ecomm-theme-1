@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { useState } from 'react'
 
 export default function Home() {
-  const [shopDropDown, setshopDropDown] = useState(true)
+  const [shopDropDown, setshopDropDown] = useState(false)
 
   return (
     <>

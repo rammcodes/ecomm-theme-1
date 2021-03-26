@@ -120,12 +120,12 @@
   &__shop-dd-wrapper {
     position: fixed;
     width: 100%;
-    top: 109px;
+    top: 108px;
     left: 0;
     z-index: 150;
 
     @include respond(tab-land) {
-      top: 92px;
+      top: 91px;
     }
   }
 
@@ -174,7 +174,9 @@
     font-size: 1.3rem;
   }
   &__shop-dd-new-arrival-item-price {
-    color: #000;
+    color: #9c9c9c;
+    font-weight: 700;
+    font-size: 1.2rem;
   }
   &__shop-dd-new-arrival-item-img-cont {
     text-align: center;
@@ -192,7 +194,7 @@
     &:hover::after {
       content: '';
       position: absolute;
-      top: calc(100% - 1.4rem);
+      top: calc(100% - 1.5rem);
       left: 50%;
       transform: translateX(-50%);
 
@@ -883,6 +885,6 @@
   &__item {
     font-size: 1.4rem;
     margin-bottom: 2rem;
-    color: #000;
+    color: #585858;
   }
 }

@@ -1,0 +1,57 @@
+.colln-hero {
+  background: #f7f7f7;
+  position: relative;
+  padding-top: 109px;
+
+  @include respond(tab-land) {
+    padding-top: 92px;
+  }
+  @include respond(tab-port) {
+    padding-top: 88px;
+  }
+
+  &__container {
+    position: relative;
+  }
+
+  &__content {
+    padding: 15rem 0;
+  }
+  &__title {
+    font-size: 6rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    @include fontTert;
+  }
+  &__img-cont {
+    position: absolute;
+    right: -5%;
+    bottom: 0;
+    width: 70rem;
+  }
+  &__img {
+    width: 100%;
+  }
+}
+
+.nav-indicator {
+  display: flex;
+  align-items: center;
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  &__item-name {
+    color: #c4c4c4;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    &--active {
+        color: #414141;
+    }
+  }
+  &__item-icon {
+    width: 0.6rem;
+  }
+}

@@ -102,7 +102,8 @@
   &__filters-cont-item {
     margin-bottom: 6rem;
 
-    &:last-child {
+    &:last-child,
+    &:nth-last-child(2) {
       margin-bottom: 0;
     }
     @include respond(phone) {

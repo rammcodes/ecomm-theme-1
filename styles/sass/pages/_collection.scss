@@ -100,6 +100,9 @@
   &__filters-cont-product {
     display: flex;
     margin-bottom: 2rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
   &__filters-cont-product-img-cont {
     width: 25%;

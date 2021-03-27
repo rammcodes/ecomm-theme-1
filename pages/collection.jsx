@@ -345,6 +345,47 @@ export default function Collection() {
                     </li>
                   </ul>
                 </div>
+                <div className="colln-main__filters-cont-item">
+                  <h3 className="colln-main__filters-cont-item-title">
+                    Best Selling
+                  </h3>
+                  <div className="colln-main__filters-cont-products">
+                    <div className="colln-main__filters-cont-product">
+                      <div className="colln-main__filters-cont-product-img-cont">
+                        <img
+                          src="./png/chair-bl.png"
+                          className="colln-main__filters-cont-product-img"
+                          alt="chair"
+                        />
+                      </div>
+                      <div className="colln-main__filters-cont-product-content">
+                        <h5 className="colln-main__filters-cont-product-name">
+                          Minimal Chair Black
+                        </h5>
+                        <span className="colln-main__filters-cont-product-price">
+                          $600
+                        </span>
+                      </div>
+                    </div>
+                    <div className="colln-main__filters-cont-product">
+                      <div className="colln-main__filters-cont-product-img-cont">
+                        <img
+                          src="./png/chair-bl.png"
+                          className="colln-main__filters-cont-product-img"
+                          alt="chair"
+                        />
+                      </div>
+                      <div className="colln-main__filters-cont-product-content">
+                        <h5 className="colln-main__filters-cont-product-name">
+                          Minimal Chair Black
+                        </h5>
+                        <span className="colln-main__filters-cont-product-price">
+                          $600
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="colln-main__row-item">

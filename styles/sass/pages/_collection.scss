@@ -68,6 +68,7 @@
   }
   &__filters-cont {
   }
+
   &__filters-cont-item {
     margin-bottom: 6rem;
   }
@@ -95,6 +96,32 @@
       color: #323232;
     }
   }
+
+  &__filters-cont-product {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  &__filters-cont-product-img-cont {
+    width: 25%;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+  }
+  &__filters-cont-product-img {
+    width: 80%;
+  }
+
+  &__filters-cont-product-name {
+    font-size: 1.3rem;
+    margin-bottom: 2px;
+    font-weight: 700;
+  }
+  &__filters-cont-product-price {
+    font-size: 1.2rem;
+  }
+
   &__products-end {
     margin-top: 10rem;
     display: flex;

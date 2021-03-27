@@ -25,12 +25,14 @@
   }
   &__img-cont {
     position: absolute;
-    right: -10%;
+    right: 0%;
     bottom: 0;
     width: 70rem;
+    overflow: hidden;
   }
   &__img {
     width: 100%;
+    transform: translateX(18%);
   }
 }
 

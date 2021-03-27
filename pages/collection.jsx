@@ -441,6 +441,71 @@ export default function Collection() {
                     </div>
                   </div>
                 </div>
+
+                <div className="colln-main__products-end">
+                  <div className="colln-main__products-end-design"></div>
+                  <div className="colln-main__products-end-text">
+                    That's it for Accent Chairs
+                  </div>
+                  <div className="colln-main__products-end-design"></div>
+                </div>
+              </div>
+              <div className="colln-main__recomm">
+                <h2 className="heading heading-section">
+                  <span className="heading-section__top">
+                    What you might like
+                  </span>
+                  <span className="heading-section__main">
+                    From other Collections
+                  </span>
+                </h2>
+                <div className="products-grid">
+                  <div className="products-grid__item">
+                    <div className="product-preview">
+                      <div className="product-preview__img-cont">
+                        <img
+                          src="./png/product.png"
+                          alt=""
+                          className="product-preview__img"
+                        />
+                      </div>
+                      <h4 className="product-preview__name">
+                        Orla Kiely Laurel Walnut Feet
+                      </h4>
+                      <h5 className="product-preview__price">$290</h5>
+                    </div>
+                  </div>
+                  <div className="products-grid__item">
+                    <div className="product-preview">
+                      <div className="product-preview__img-cont">
+                        <img
+                          src="./png/product.png"
+                          alt=""
+                          className="product-preview__img"
+                        />
+                      </div>
+                      <h4 className="product-preview__name">
+                        Orla Kiely Laurel Walnut Feet
+                      </h4>
+                      <h5 className="product-preview__price">$290</h5>
+                    </div>
+                  </div>
+                  <div className="products-grid__item">
+                    <div className="product-preview">
+                      <div className="product-preview__img-cont">
+                        <img
+                          src="./png/product.png"
+                          alt=""
+                          className="product-preview__img"
+                        />
+                      </div>
+                      <h4 className="product-preview__name">
+                        Orla Kiely Laurel Walnut Feet
+                      </h4>
+                      <h5 className="product-preview__price">$290</h5>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -16,12 +16,19 @@
 
   &__content {
     padding: 15rem 0;
+    @include respond(phone) {
+      padding: 12rem 0;
+    }
   }
   &__title {
     font-size: 6rem;
     font-weight: 400;
     margin-bottom: 1rem;
     @include fontTert;
+
+    @include respond(phone) {
+      font-size: 4.5rem;
+    }
   }
   &__img-cont {
     position: absolute;
@@ -29,6 +36,10 @@
     bottom: 0;
     width: 70rem;
     overflow: hidden;
+
+    @include respond(tab-port) {
+      display: none;
+    }
   }
   &__img {
     width: 100%;
@@ -63,16 +74,45 @@
 
 .colln-main {
   padding: 10rem 0 0 0;
+  @include respond(tab-port) {
+    padding: 6rem 0 0 0;
+  }
   &__row {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-gap: 4rem;
+
+    @include respond(tab-land) {
+      grid-template-columns: 1fr 2fr;
+    }
+
+    @include respond(phone) {
+      grid-template-columns: 1fr;
+      grid-gap: 5rem;
+    }
   }
   &__filters-cont {
+    @include respond(phone) {
+      max-height: 30rem;
+      overflow: scroll;
+      background: #f7f7f7;
+      padding: 5rem 4rem;
+    }
   }
-
   &__filters-cont-item {
     margin-bottom: 6rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @include respond(phone) {
+      margin-bottom: 5rem;
+    }
+  }
+  &__filters-cont-item-products {
+    @include respond(phone) {
+      display: none;
+    }
   }
   &__filters-cont-item-title {
     font-size: 2.5rem;
@@ -131,6 +171,9 @@
     margin-top: 10rem;
     display: flex;
     align-items: center;
+    @include respond(tab-port) {
+      margin-top: 6rem;
+    }
   }
   &__products-end-design {
     flex: 1;
@@ -144,6 +187,9 @@
   }
   &__recomm {
     padding: 10rem 0;
+    @include respond(tab-port) {
+      padding: 6rem 0;
+    }
   }
 }
 
@@ -151,4 +197,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5rem 4rem;
+
+  @include respond(tab-land) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem 2rem;
+  }
 }

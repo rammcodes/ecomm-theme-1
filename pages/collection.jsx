@@ -345,7 +345,7 @@ export default function Collection() {
                     </li>
                   </ul>
                 </div>
-                <div className="colln-main__filters-cont-item">
+                <div className="colln-main__filters-cont-item  colln-main__filters-cont-item-products">
                   <h3 className="colln-main__filters-cont-item-title">
                     Best Selling
                   </h3>
@@ -496,9 +496,7 @@ export default function Collection() {
                   <span className="heading-section__top">
                     What you might like
                   </span>
-                  <span className="heading-section__main">
-                    From other Collections
-                  </span>
+                  <span className="heading-section__main">Similar Items</span>
                 </h2>
                 <div className="products-grid">
                   <div className="products-grid__item">

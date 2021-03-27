@@ -303,23 +303,23 @@ export default function Collection() {
                   </h3>
                   <ul className="colln-main__filters-cont-select-filters">
                     <li className="colln-main__filters-cont-select-filter">
-                      <input type="radio" id="age1" name="age" value="30" />
+                      <input type="checkbox" id="age1" name="age" value="30" />
                       <label for="age1">All Categories</label>
                     </li>
                     <li className="colln-main__filters-cont-select-filter">
-                      <input type="radio" id="age1" name="age" value="30" />
+                      <input type="checkbox" id="age1" name="age" value="30" />
                       <label for="age1">Minimal</label>
                     </li>
                     <li className="colln-main__filters-cont-select-filter">
-                      <input type="radio" id="age1" name="age" value="30" />
+                      <input type="checkbox" id="age1" name="age" value="30" />
                       <label for="age1">Armchairs</label>
                     </li>
                     <li className="colln-main__filters-cont-select-filter">
-                      <input type="radio" id="age1" name="age" value="30" />
+                      <input type="checkbox" id="age1" name="age" value="30" />
                       <label for="age1">Accent Chairs</label>
                     </li>
                     <li className="colln-main__filters-cont-select-filter">
-                      <input type="radio" id="age1" name="age" value="30" />
+                      <input type="checkbox" id="age1" name="age" value="30" />
                       <label for="age1">Recliner Chairs</label>
                     </li>
                   </ul>
@@ -328,19 +328,19 @@ export default function Collection() {
                   <h3 className="colln-main__filters-cont-item-title">Price</h3>
                   <ul className="colln-main__filters-cont-select-filters">
                     <li className="colln-main__filters-cont-select-filter">
-                      <input type="radio" id="age1" name="age" value="30" />
+                      <input type="checkbox" id="age1" name="age" value="30" />
                       <label for="age1">$0 - $30</label>
                     </li>
                     <li className="colln-main__filters-cont-select-filter">
-                      <input type="radio" id="age1" name="age" value="30" />
+                      <input type="checkbox" id="age1" name="age" value="30" />
                       <label for="age1">$100 - $500</label>
                     </li>
                     <li className="colln-main__filters-cont-select-filter">
-                      <input type="radio" id="age1" name="age" value="30" />
+                      <input type="checkbox" id="age1" name="age" value="30" />
                       <label for="age1">$500 - $1000</label>
                     </li>
                     <li className="colln-main__filters-cont-select-filter">
-                      <input type="radio" id="age1" name="age" value="30" />
+                      <input type="checkbox" id="age1" name="age" value="30" />
                       <label for="age1">$1000 - $5000</label>
                     </li>
                   </ul>

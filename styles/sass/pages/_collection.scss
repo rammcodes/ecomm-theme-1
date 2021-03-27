@@ -118,12 +118,12 @@
   &__filters-cont-item {
     margin-bottom: 6rem;
 
-    &:last-child,
-    &:nth-last-child(2) {
-      margin-bottom: 0;
-    }
     @include respond(phone) {
       margin-bottom: 5rem;
+      &:last-child,
+      &:nth-last-child(2) {
+        margin-bottom: 0;
+      }
     }
   }
   &__filters-cont-item-products {

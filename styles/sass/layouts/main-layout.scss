@@ -1,0 +1,12 @@
+.main-layout {
+  &__main {
+    padding-top: 109px;
+
+    @include respond(tab-land) {
+      padding-top: 92px;
+    }
+    @include respond(tab-port) {
+      padding-top: 88px;
+    }
+  }
+}

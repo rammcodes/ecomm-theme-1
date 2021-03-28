@@ -240,18 +240,7 @@
 .home-hero {
   background: #f7f7f7;
   position: relative;
-  padding-top: 109px;
 
-  @include respond(tab-land) {
-    padding-top: 92px;
-  }
-  @include respond(tab-port) {
-    padding-top: 88px;
-  }
-
-  @include respond(big-desktop) {
-    padding-top: 121px;
-  }
   &__container {
     display: grid;
     grid-template-columns: 1.1fr 1fr;

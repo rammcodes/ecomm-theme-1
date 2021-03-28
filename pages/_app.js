@@ -1,5 +1,6 @@
 import '../styles/sass/main.scss'
 import Head from 'next/head'
+import MainLayout from '../components/main-layout'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -19,7 +20,9 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-      <Component {...pageProps} />
+      <MainLayout>
+        <Component {...pageProps} />
+      </MainLayout>
     </>
   )
 }

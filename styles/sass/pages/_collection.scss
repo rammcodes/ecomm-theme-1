@@ -1,14 +1,6 @@
 .colln-hero {
   background: #f7f7f7;
   position: relative;
-  padding-top: 109px;
-
-  @include respond(tab-land) {
-    padding-top: 92px;
-  }
-  @include respond(tab-port) {
-    padding-top: 88px;
-  }
 
   &__container {
     position: relative;

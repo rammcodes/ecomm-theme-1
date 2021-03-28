@@ -1,0 +1,52 @@
+.product-main {
+  padding: 8rem 0;
+  background: #fdfdfd;
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-gap: 8rem;
+  }
+  &__visual {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 3rem;
+  }
+  &__small-img-cont {
+    margin-bottom: 1.5rem;
+  }
+  &__small-img {
+    width: 100%;
+  }
+
+  &__big-img-cont {
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  &__big-img {
+    width: 80%;
+  }
+  &__title {
+    margin-bottom: 1rem;
+  }
+  &__desc {
+    line-height: 2.1;
+    font-size: 1.5rem;
+    color: #747474;
+    margin-bottom: 3rem;
+  }
+  &__price-prev {
+    font-size: 2.5rem;
+    color: #ff3263;
+    margin-right: 2rem;
+    @include fontTert;
+    letter-spacing: 1px;
+  }
+  &__price-curr {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    @include fontTert;
+  }
+}

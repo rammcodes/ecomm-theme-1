@@ -205,6 +205,75 @@ export default function Collection() {
           </div>
         </div>
       </section>
+      <section className="product-recomm">
+        <div className="container">
+          <h2 className="heading heading-section heading-section--cent">
+            <span className="heading-section__main">You might Like</span>
+          </h2>
+          <div className="product-recomm__row">
+            <div className="product-recomm__row-item">
+              <div className="product-preview">
+                <div className="product-preview__img-cont">
+                  <img
+                    src="./png/product.png"
+                    alt=""
+                    className="product-preview__img"
+                  />
+                </div>
+                <h4 className="product-preview__name">
+                  Orla Kiely Laurel Walnut Feet
+                </h4>
+                <h5 className="product-preview__price">$290</h5>
+              </div>
+            </div>
+            <div className="product-recomm__row-item">
+              <div className="product-preview">
+                <div className="product-preview__img-cont">
+                  <img
+                    src="./png/product.png"
+                    alt=""
+                    className="product-preview__img"
+                  />
+                </div>
+                <h4 className="product-preview__name">
+                  Orla Kiely Laurel Walnut Feet
+                </h4>
+                <h5 className="product-preview__price">$290</h5>
+              </div>
+            </div>
+            <div className="product-recomm__row-item">
+              <div className="product-preview">
+                <div className="product-preview__img-cont">
+                  <img
+                    src="./png/product.png"
+                    alt=""
+                    className="product-preview__img"
+                  />
+                </div>
+                <h4 className="product-preview__name">
+                  Orla Kiely Laurel Walnut Feet
+                </h4>
+                <h5 className="product-preview__price">$290</h5>
+              </div>
+            </div>
+            <div className="product-recomm__row-item">
+              <div className="product-preview">
+                <div className="product-preview__img-cont">
+                  <img
+                    src="./png/product.png"
+                    alt=""
+                    className="product-preview__img"
+                  />
+                </div>
+                <h4 className="product-preview__name">
+                  Orla Kiely Laurel Walnut Feet
+                </h4>
+                <h5 className="product-preview__price">$290</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

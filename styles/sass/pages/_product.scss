@@ -115,10 +115,20 @@
 }
 
 .product-reviews {
-  padding: 0 0 8rem 0;
   &__row {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.product-recomm {
+  padding:  15rem 0 15rem 0;
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 3rem;
   }
 }

@@ -54,6 +54,7 @@
   }
   &__cart-actions {
     display: flex;
+    margin-bottom: 15rem;
   }
   &__cart-counter {
     display: flex;
@@ -91,5 +92,24 @@
   &__cart-main-btn-lt {
     background: #fff;
     color: #ff3263;
+  }
+  &__info-opts {
+    display: flex;
+    margin-bottom: 4rem;
+  }
+  &__info-opt {
+    padding: 1rem 4rem;
+    font-weight: 700;
+    background: transparent;
+    &--active {
+      background: #f8f8f8;
+      border-radius: 3px;
+    }
+  }
+  &__info-main-para {
+      color: #3c3c3c;
+      font-size: 1.5rem;
+      line-height: 2.6;
+      margin-bottom: 3rem;
   }
 }

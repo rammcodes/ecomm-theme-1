@@ -78,6 +78,36 @@ export default function Collection() {
                   </button>
                 </div>
               </div>
+              <div className="product-main__info">
+                <div className="product-main__info-opts">
+                  <button className="product-main__info-opt product-main__info-opt--active">
+                    Product Details
+                  </button>
+                  <button className="product-main__info-opt">
+                    Specifications
+                  </button>
+                  <button className="product-main__info-opt">Reviews</button>
+                </div>
+                <div className="product-main__info-main">
+                  <p className="product-main__info-main-para">
+                    Most of us are familiar with the iconic design of the egg
+                    shaped chair floating in the air. The Hanging Egg Chair is a
+                    critically acclaimed design that has enjoyed praise
+                    worldwide ever since the distinctive sculptural shape was
+                    created by Nanna & Jørgen Ditzel in 1959. sustainable
+                    products.
+                  </p>
+                  <p className="product-main__info-main-para">
+                    The design of the Hanging Egg Chair has long since been
+                    dubbed timeless whereas the material rattan had its golden
+                    age in the 1960s when skilled wicker makers and architects
+                    crafted beautifully sculptured furniture out of the
+                    challenging material. However, at the moment rattan is
+                    becoming more and more popular concurrent with consumer
+                    demands 
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

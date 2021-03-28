@@ -119,7 +119,7 @@ export default function Collection() {
           </h2>
           <div className="product-reviews__row">
             <div className="product-reviews__row-item">
-              <div className="testimonial unshadow">
+              <div className="testimonial unshadow product-reviews__testi">
                 <div className="testimonial__img-cont">
                   <img
                     src="./png/testi1.png"
@@ -140,7 +140,7 @@ export default function Collection() {
               </div>
             </div>
             <div className="product-reviews__row-item">
-              <div className="testimonial unshadow">
+              <div className="testimonial unshadow product-reviews__testi">
                 <div className="testimonial__img-cont">
                   <img
                     src="./png/testi1.png"
@@ -161,7 +161,7 @@ export default function Collection() {
               </div>
             </div>
             <div className="product-reviews__row-item">
-              <div className="testimonial unshadow">
+              <div className="testimonial unshadow product-reviews__testi">
                 <div className="testimonial__img-cont">
                   <img
                     src="./png/testi1.png"
@@ -182,7 +182,7 @@ export default function Collection() {
               </div>
             </div>
             <div className="product-reviews__row-item">
-              <div className="testimonial unshadow">
+              <div className="testimonial unshadow product-reviews__testi">
                 <div className="testimonial__img-cont">
                   <img
                     src="./png/testi1.png"

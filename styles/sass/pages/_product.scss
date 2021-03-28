@@ -1,15 +1,38 @@
 .product-main {
   padding: 8rem 0;
   background: #fdfdfd;
+
+  @include respond(phone) {
+    padding: 5rem 0;
+  }
   &__row {
     display: grid;
     grid-template-columns: 1fr 1.3fr;
     grid-gap: 8rem;
+    @include respond(tab-port) {
+      grid-gap: 5rem;
+    }
+    @include respond(phone) {
+      grid-template-columns: 1fr;
+      grid-gap: 4rem;
+    }
   }
   &__visual {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-gap: 3rem;
+    @include respond(tab-port) {
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
+    }
+  }
+  &__all-images {
+    @include respond(tab-port) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 1rem;
+      order: 2;
+    }
   }
   &__small-img-cont {
     margin-bottom: 1.5rem;
@@ -24,6 +47,9 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    @include respond(phone) {
+      height: 30rem;
+    }
   }
   &__big-img {
     width: 80%;
@@ -55,9 +81,19 @@
   &__cart-actions {
     display: flex;
     margin-bottom: 15rem;
+    @include respond(tab-land) {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    @include respond(tab-port) {
+      margin-bottom: 6rem;
+    }
   }
   &__cart-counter {
     display: flex;
+    @include respond(tab-land) {
+      margin-bottom: 3rem;
+    }
   }
   &__cart-counter-btn {
     display: block;
@@ -78,6 +114,13 @@
   &__cart-main {
     display: flex;
     padding: 0 3rem;
+
+    @include respond(tab-land) {
+      padding: 0;
+    }
+    @include respond(tab-port) {
+      flex-direction: column;
+    }
   }
   &__cart-main-btn {
     margin-right: 2.5rem;
@@ -88,6 +131,18 @@
     padding: 0 4rem;
     font-weight: 700;
     font-size: 1.4rem;
+
+    @include respond(tab-land) {
+      padding: 2rem 4rem;
+    }
+    @include respond(tab-port) {
+      margin-right: 0;
+      font-size: 1.8rem;
+      padding: 2.2rem 0;
+      &:first-child {
+        margin-bottom: 1.5rem;
+      }
+    }
   }
   &__cart-main-btn-lt {
     background: #fff;
@@ -96,6 +151,9 @@
   &__info-opts {
     display: flex;
     margin-bottom: 4rem;
+    @include respond(tab-port) {
+      display: none;
+    }
   }
   &__info-opt {
     padding: 1rem 4rem;
@@ -121,14 +179,41 @@
     grid-gap: 1rem;
     width: 90%;
     margin: auto;
+
+    @include respond(tab-port) {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+    @include respond(tab-port) {
+      &:first-child {
+        margin-bottom: 2rem;
+      }
+    }
+    @include respond(phone) {
+      grid-gap: 4rem;
+    }
+  }
+  &__testi {
+    @include respond(phone) {
+      padding: 0;
+    }
   }
 }
 
 .product-recomm {
-  padding:  15rem 0 15rem 0;
+  padding: 15rem 0 15rem 0;
+
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
   &__row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 3rem;
+
+    @include respond(tab-port) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+    }
   }
 }

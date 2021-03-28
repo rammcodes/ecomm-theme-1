@@ -61,6 +61,23 @@ export default function Collection() {
                 </span>
                 <span className="product-main__price-curr">$678</span>
               </div>
+              <div className="product-main__cart-actions">
+                <div className="product-main__cart-counter">
+                  <span className="product-main__cart-counter-btn">-</span>
+                  <span className="product-main__cart-counter-txt">2</span>
+                  <span className="product-main__cart-counter-btn product-main__cart-counter-btn-dark">
+                    +
+                  </span>
+                </div>
+                <div className="product-main__cart-main">
+                  <button className="product-main__cart-main-btn">
+                    Add to cart
+                  </button>
+                  <button className="product-main__cart-main-btn product-main__cart-main-btn-lt">
+                    Add to cart
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

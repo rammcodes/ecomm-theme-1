@@ -37,16 +37,59 @@
     color: #747474;
     margin-bottom: 3rem;
   }
+  &__prices {
+    margin-bottom: 2rem;
+  }
   &__price-prev {
     font-size: 2.5rem;
     color: #ff3263;
-    margin-right: 2rem;
+    margin-right: 1rem;
     @include fontTert;
     letter-spacing: 1px;
   }
   &__price-curr {
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: 1px;
     @include fontTert;
+  }
+  &__cart-actions {
+    display: flex;
+  }
+  &__cart-counter {
+    display: flex;
+  }
+  &__cart-counter-btn {
+    display: block;
+    padding: 8px 2.5rem;
+    font-size: 2.5rem;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+  }
+  &__cart-counter-btn-dark {
+    background: #f8f8f8;
+  }
+  &__cart-counter-txt {
+    padding: 0 2rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  &__cart-main {
+    display: flex;
+    padding: 0 3rem;
+  }
+  &__cart-main-btn {
+    margin-right: 2.5rem;
+    border-radius: 3px;
+    background: #ff3263;
+    border: 1px solid #ff3263;
+    color: #fff;
+    padding: 0 4rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  &__cart-main-btn-lt {
+    background: #fff;
+    color: #ff3263;
   }
 }

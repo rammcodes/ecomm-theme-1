@@ -104,7 +104,100 @@ export default function Collection() {
                     crafted beautifully sculptured furniture out of the
                     challenging material. However, at the moment rattan is
                     becoming more and more popular concurrent with consumer
-                    demands 
+                    demands
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="product-reviews">
+        <div className="container">
+          <h2 className="heading heading-section heading-section--cent">
+            <span className="heading-section__main">Reviews</span>
+          </h2>
+          <div className="product-reviews__row">
+            <div className="product-reviews__row-item">
+              <div className="testimonial unshadow">
+                <div className="testimonial__img-cont">
+                  <img
+                    src="./png/testi1.png"
+                    alt="testimonial"
+                    className="testimonial__img"
+                  />
+                </div>
+                <div className="testimonial__content">
+                  <h4 className="testimonial__name">Ben James</h4>
+                  <h6 className="testimonial__prof">CEO of Pornhub</h6>
+                  <p className="testimonial__review">
+                    "Selential has got everything I need. I was able to get some
+                    high quality furniture for my office as well as for my home.
+                    Would highly recommend this to many people. Wow what great
+                    service, I love it!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="product-reviews__row-item">
+              <div className="testimonial unshadow">
+                <div className="testimonial__img-cont">
+                  <img
+                    src="./png/testi1.png"
+                    alt="testimonial"
+                    className="testimonial__img"
+                  />
+                </div>
+                <div className="testimonial__content">
+                  <h4 className="testimonial__name">Ben James</h4>
+                  <h6 className="testimonial__prof">CEO of Pornhub</h6>
+                  <p className="testimonial__review">
+                    "Selential has got everything I need. I was able to get some
+                    high quality furniture for my office as well as for my home.
+                    Would highly recommend this to many people. Wow what great
+                    service, I love it!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="product-reviews__row-item">
+              <div className="testimonial unshadow">
+                <div className="testimonial__img-cont">
+                  <img
+                    src="./png/testi1.png"
+                    alt="testimonial"
+                    className="testimonial__img"
+                  />
+                </div>
+                <div className="testimonial__content">
+                  <h4 className="testimonial__name">Ben James</h4>
+                  <h6 className="testimonial__prof">CEO of Pornhub</h6>
+                  <p className="testimonial__review">
+                    "Selential has got everything I need. I was able to get some
+                    high quality furniture for my office as well as for my home.
+                    Would highly recommend this to many people. Wow what great
+                    service, I love it!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="product-reviews__row-item">
+              <div className="testimonial unshadow">
+                <div className="testimonial__img-cont">
+                  <img
+                    src="./png/testi1.png"
+                    alt="testimonial"
+                    className="testimonial__img"
+                  />
+                </div>
+                <div className="testimonial__content">
+                  <h4 className="testimonial__name">Ben James</h4>
+                  <h6 className="testimonial__prof">CEO of Pornhub</h6>
+                  <p className="testimonial__review">
+                    "Selential has got everything I need. I was able to get some
+                    high quality furniture for my office as well as for my home.
+                    Would highly recommend this to many people. Wow what great
+                    service, I love it!"
                   </p>
                 </div>
               </div>

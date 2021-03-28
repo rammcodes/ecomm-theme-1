@@ -107,9 +107,18 @@
     }
   }
   &__info-main-para {
-      color: #3c3c3c;
-      font-size: 1.5rem;
-      line-height: 2.6;
-      margin-bottom: 3rem;
+    color: #3c3c3c;
+    font-size: 1.5rem;
+    line-height: 2.6;
+    margin-bottom: 3rem;
+  }
+}
+
+.product-reviews {
+  padding: 0 0 8rem 0;
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
   }
 }

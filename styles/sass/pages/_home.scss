@@ -287,6 +287,8 @@
     position: absolute;
     top: 50%;
 
+    transform: translateY(-50%);
+
     @include respond(tab-land) {
       display: none;
     }

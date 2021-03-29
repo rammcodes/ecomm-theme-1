@@ -67,7 +67,9 @@ export default function MainHeader() {
       </div>
       <div className="main-header__main">
         <div className="main-header__logo-cont">
-          <h1 className="main-header__logo">Selential</h1>
+          <Link href="/">
+            <h1 className="main-header__logo">Selential</h1>
+          </Link>
         </div>
         <nav className="main-header__nav">
           <ul className="main-header__links">

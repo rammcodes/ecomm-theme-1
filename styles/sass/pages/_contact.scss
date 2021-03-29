@@ -1,21 +1,31 @@
 .contact-main {
-  padding: 12rem 0;
+  padding: 10rem 0;
   background: rgb(250, 250, 250);
+  @include respond(tab-port) {
+    padding: 5rem 0;
+  }
 
   &__form-cont {
     max-width: 90rem;
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   &__form {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
+    @include respond(tab-port) {
+      grid-gap: 2rem;
+    }
   }
   &__form-inputs {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
+    @include respond(tab-port) {
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
+    }
   }
   &__form-input,
   &__form-tarea,
@@ -39,16 +49,27 @@
   padding: 8rem 0 15rem 0;
   background: rgb(250, 250, 250);
 
+  @include respond(tab-port) {
+    padding: 5rem 0 8rem 0;
+  }
+
   &__main {
     display: grid;
     grid-gap: 3rem;
     max-width: 90rem;
     margin: auto;
-    width: 90%;
+    width: 100%;
+
+    @include respond(tab-port) {
+      grid-gap: 2rem;
+    }
   }
   &__item {
     display: grid;
     grid-gap: 3rem;
+    @include respond(tab-port) {
+      grid-gap: 2rem;
+    }
   }
   &__item-que {
     padding: 4rem 8rem 4rem 4rem;
@@ -58,6 +79,10 @@
     line-height: 2;
     position: relative;
     cursor: pointer;
+
+    @include respond(tab-port) {
+      padding: 2rem 4rem 2rem 2rem;
+    }
   }
   &__item-que-arrow-open,
   &__item-que-arrow {
@@ -66,6 +91,10 @@
     top: 50%;
     right: 4rem;
     transform: translateY(-50%);
+
+    @include respond(tab-port) {
+      right: 2rem;
+    }
   }
 
   &__item-ans {
@@ -75,5 +104,9 @@
     color: #554e4e;
     margin: 0 7rem;
     line-height: 2;
+    @include respond(tab-port) {
+      padding: 2rem;
+      margin: 0;
+    }
   }
 }

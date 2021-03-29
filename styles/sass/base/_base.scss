@@ -48,7 +48,9 @@ input:focus,
 button:focus,
 a:focus,
 textarea:focus,
-select {
+select,
+select:focus,
+div:focus {
   outline: none;
   font-family: inherit;
 }

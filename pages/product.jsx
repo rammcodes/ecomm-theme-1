@@ -8,6 +8,30 @@ export default function Collection() {
       </Head>
       <section className="product-main">
         <div className="container">
+          <div className="nav-indicator mb-med">
+            <div className="nav-indicator__item">
+              <span className="nav-indicator__item-name">Home</span>
+              <img
+                src="./png/ico-right-grey.png"
+                alt="icon right"
+                className="nav-indicator__item-icon"
+              />
+            </div>
+            <div className="nav-indicator__item">
+              <span className="nav-indicator__item-name">Collection</span>
+              <img
+                src="./png/ico-right-grey.png"
+                alt="icon right"
+                className="nav-indicator__item-icon"
+              />
+            </div>
+            <div className="nav-indicator__item">
+              <span className="nav-indicator__item-name nav-indicator__item-name--active">
+                Chair 
+              </span>
+            </div>
+          </div>
+
           <div className="product-main__row">
             <div className="product-main__row-item">
               <div className="product-main__visual">

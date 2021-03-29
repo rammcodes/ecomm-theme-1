@@ -1,0 +1,79 @@
+.contact-main {
+  padding: 12rem 0;
+  background: rgb(250, 250, 250);
+
+  &__form-cont {
+    max-width: 90rem;
+    width: 90%;
+    margin: auto;
+  }
+  &__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+  &__form-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+  }
+  &__form-input,
+  &__form-tarea,
+  &__form-submit {
+    padding: 2.2rem 2rem;
+    border: 1px solid #dfdfdf;
+    font-size: 1.6rem;
+    resize: none;
+    background: rgb(250, 250, 250);
+    background: #fff;
+  }
+  &__form-submit {
+    font-weight: 700;
+    background: #ff3263;
+    color: #fff;
+    border: none;
+  }
+}
+
+.contact-faq {
+  padding: 8rem 0 15rem 0;
+  background: rgb(250, 250, 250);
+
+  &__main {
+    display: grid;
+    grid-gap: 3rem;
+    max-width: 90rem;
+    margin: auto;
+    width: 90%;
+  }
+  &__item {
+    display: grid;
+    grid-gap: 3rem;
+  }
+  &__item-que {
+    padding: 4rem 8rem 4rem 4rem;
+    font-size: 1.6rem;
+    background: #fff;
+
+    line-height: 2;
+    position: relative;
+    cursor: pointer;
+  }
+  &__item-que-arrow-open,
+  &__item-que-arrow {
+    width: 1.3rem;
+    position: absolute;
+    top: 50%;
+    right: 4rem;
+    transform: translateY(-50%);
+  }
+
+  &__item-ans {
+    font-size: 1.4rem;
+    padding: 4rem;
+    background: #fff;
+    color: #554e4e;
+    margin: 0 7rem;
+    line-height: 2;
+  }
+}

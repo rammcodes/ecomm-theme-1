@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -57,124 +58,140 @@ export default function Home() {
           </h2>
           <div className="products-row">
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -251,124 +268,140 @@ export default function Home() {
           </h2>
           <div className="products-row">
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="products-row__item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

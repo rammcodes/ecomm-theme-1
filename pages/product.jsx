@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Collection() {
   return (
@@ -27,7 +28,7 @@ export default function Collection() {
             </div>
             <div className="nav-indicator__item">
               <span className="nav-indicator__item-name nav-indicator__item-name--active">
-                Chair 
+                Chair
               </span>
             </div>
           </div>
@@ -236,64 +237,72 @@ export default function Collection() {
           </h2>
           <div className="product-recomm__row">
             <div className="product-recomm__row-item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="product-recomm__row-item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="product-recomm__row-item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
             <div className="product-recomm__row-item">
-              <div className="product-preview">
-                <div className="product-preview__img-cont">
-                  <img
-                    src="./png/product.png"
-                    alt=""
-                    className="product-preview__img"
-                  />
+              <Link href="/product">
+                <div className="product-preview">
+                  <div className="product-preview__img-cont">
+                    <img
+                      src="./png/product.png"
+                      alt=""
+                      className="product-preview__img"
+                    />
+                  </div>
+                  <h4 className="product-preview__name">
+                    Orla Kiely Laurel Walnut Feet
+                  </h4>
+                  <h5 className="product-preview__price">$290</h5>
                 </div>
-                <h4 className="product-preview__name">
-                  Orla Kiely Laurel Walnut Feet
-                </h4>
-                <h5 className="product-preview__price">$290</h5>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

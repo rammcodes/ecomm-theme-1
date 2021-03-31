@@ -437,6 +437,13 @@ export default function MainHeader() {
               className="main-header__action-icon"
             />
           </div>
+          <div className="main-header__action main-header__ham-menu-cont">
+            <img
+              src="./png/ham-menu.png"
+              alt="icon"
+              className="main-header__action-icon"
+            />
+          </div>
         </div>
       </div>
     </header>

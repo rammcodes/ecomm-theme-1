@@ -333,7 +333,7 @@
     position: relative;
   }
   &__full-menu-link {
-    padding: 2.5rem 2rem;
+    padding: 3rem 3rem;
     font-size: 2.2rem;
     font-weight: 700;
     color: grey;
@@ -346,7 +346,7 @@
     left: 0;
     display: flex;
     width: 100%;
-    padding: 2.5rem 2rem;
+    padding: 3rem 3rem;
     align-items: center;
     justify-content: center;
 
@@ -355,8 +355,11 @@
     border-top: 2px solid #eee;
   }
   &__full-menu-social-icon {
-    width: 2.5rem;
+    width: 3rem;
     margin: 0 1rem;
+    @include respond(phone) {
+      width: 2.2rem;
+    }
   }
 }
 

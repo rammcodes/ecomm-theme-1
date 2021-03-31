@@ -75,7 +75,7 @@ export default function Collection() {
           <div className="contact-faq__main">
             {faqs.map((item, idx) => {
               return (
-                <div className="contact-faq__item">
+                <div key={idx} className="contact-faq__item">
                   <div
                     className="contact-faq__item-que"
                     onClick={() => {

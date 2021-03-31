@@ -1,9 +1,34 @@
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 export default function MainHeader() {
   const [shopDropDown, setshopDropDown] = useState(false)
   const [collectionDropDown, setCollectionDropDown] = useState(false)
+  const [showFullMenu, setshowFullMenu] = useState(false)
+
+  function useOutsideAlerter(ref) {
+    useEffect(() => {
+      /**
+       * Alert if clicked on outside of element
+       */
+      function handleClickOutside(event) {
+        if (ref.current && !ref.current.contains(event.target)) {
+          setshowFullMenu(false)
+        }
+      }
+
+      // Bind the event listener
+      document.addEventListener('mousedown', handleClickOutside)
+      return () => {
+        // Unbind the event listener on clean up
+        document.removeEventListener('mousedown', handleClickOutside)
+      }
+    }, [ref])
+  }
+
+  const fullMenuRef = useRef(null)
+  useOutsideAlerter(fullMenuRef)
+
   return (
     <header className="main-header">
       <div className="main-header__top">
@@ -437,7 +462,12 @@ export default function MainHeader() {
               className="main-header__action-icon"
             />
           </div>
-          <div className="main-header__action main-header__ham-menu-cont">
+          <div
+            className="main-header__action main-header__ham-menu-cont"
+            onClick={() => {
+              setshowFullMenu(true)
+            }}
+          >
             <img
               src="./png/ham-menu.png"
               alt="icon"
@@ -446,6 +476,77 @@ export default function MainHeader() {
           </div>
         </div>
       </div>
+
+      {showFullMenu ? (
+        <div className="main-header__full-menu-cont">
+          <div className="main-header__full-menu" ref={fullMenuRef}>
+            <ul className="main-header__full-menu-links">
+              <Link href="/">
+                <li
+                  className="main-header__full-menu-link"
+                  onClick={() => {
+                    setshowFullMenu(false)
+                  }}
+                >
+                  Home
+                </li>
+              </Link>
+              <Link href="/collection">
+                <li
+                  className="main-header__full-menu-link"
+                  onClick={() => {
+                    setshowFullMenu(false)
+                  }}
+                >
+                  Shop
+                </li>
+              </Link>
+              <Link href="/collection">
+                <li
+                  className="main-header__full-menu-link"
+                  onClick={() => {
+                    setshowFullMenu(false)
+                  }}
+                >
+                  Collection
+                </li>
+              </Link>
+              <Link href="/contact">
+                <li
+                  className="main-header__full-menu-link"
+                  onClick={() => {
+                    setshowFullMenu(false)
+                  }}
+                >
+                  Contact
+                </li>
+              </Link>
+            </ul>
+            <div className="main-header__full-menu-social">
+              <img
+                src="./png/twitter.png"
+                className="main-header__full-menu-social-icon"
+              />
+              <img
+                src="./png/yt.png"
+                className="main-header__full-menu-social-icon"
+              />
+              <img
+                src="./png/twitter.png"
+                className="main-header__full-menu-social-icon"
+              />
+              <img
+                src="./png/yt.png"
+                className="main-header__full-menu-social-icon"
+              />
+              <img
+                src="./png/twitter.png"
+                className="main-header__full-menu-social-icon"
+              />
+            </div>
+          </div>
+        </div>
+      ) : null}
     </header>
   )
 }

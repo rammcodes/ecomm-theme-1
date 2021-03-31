@@ -264,7 +264,10 @@ export default function Home() {
       <section className="main-products">
         <div className="container">
           <h2 className="heading heading-section heading-section--cent">
-            <span className="heading-section__main">Our New Products</span>
+            <span className="heading-section__main">Best Selling Products</span>
+            <span className="heading-section__bottom">
+              Best sellers this week
+            </span>
           </h2>
           <div className="products-row">
             <div className="products-row__item">
@@ -412,6 +415,10 @@ export default function Home() {
             <span className="heading-section__main">
               What customers think about us.
             </span>
+            <span className="heading-section__bottom heading-section__bottom--left">
+              Our high service has helped us get a lot of valuable clients that
+              play a major role in the success of Selential.
+            </span>
           </h2>
         </div>
         <div className="testi__wrapper">
@@ -507,7 +514,11 @@ export default function Home() {
       <section className="features">
         <div className="container">
           <h2 className="heading heading-section heading-section--cent">
-            <span className="heading-section__main">Our New Products</span>
+            <span className="heading-section__main">Why Work with Us?</span>
+            <span className="heading-section__bottom">
+              At Selential, we focus on Quality and Intergrity. So, always want
+              our customers to know what they will get.
+            </span>
           </h2>
           <div className="features__row">
             <div className="features__row-item">

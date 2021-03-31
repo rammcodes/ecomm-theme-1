@@ -419,6 +419,12 @@
     color: #414141;
     margin-bottom: 7px;
     font-weight: 400;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
   }
   &__price {
     font-size: 1.6rem;

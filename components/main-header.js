@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 export default function MainHeader() {
   const [shopDropDown, setshopDropDown] = useState(false)
+  const [collectionDropDown, setCollectionDropDown] = useState(false)
   return (
     <header className="main-header">
       <div className="main-header__top">
@@ -222,10 +223,10 @@ export default function MainHeader() {
               <li
                 className="main-header__link  main-header__link-dd"
                 onMouseEnter={() => {
-                  setshopDropDown(true)
+                  setCollectionDropDown(true)
                 }}
                 onMouseLeave={() => {
-                  setshopDropDown(false)
+                  setCollectionDropDown(false)
                 }}
               >
                 <span className="main-header__link-text">Collection</span>
@@ -234,6 +235,184 @@ export default function MainHeader() {
                   alt="arrow down"
                   className="main-header__link-icon"
                 />
+                {collectionDropDown ? (
+                  <div className="main-header__colln-dd-wrapper">
+                    <div className="main-header__colln-dd">
+                      <div className="main-header__colln-dd-row">
+                        <div className="main-header__colln-dd-row-item">
+                          <div className="main-header__colln-dd-prd-wide-row">
+                            <div className="main-header__colln-dd-prd-wide">
+                              <div className="main-header__colln-dd-prd-wide-img-cont">
+                                <img
+                                  className="main-header__colln-dd-prd-wide-img"
+                                  src="./png/chair-bl.png"
+                                  alt="chair"
+                                />
+                              </div>
+                              <div className="main-header__colln-dd-prd-wide-content">
+                                <div className="main-header__colln-dd-prd-wide-content-top">
+                                  <h4 className="main-header__colln-dd-prd-wide-title">
+                                    Accent Chairs
+                                  </h4>
+                                  <img
+                                    src="./png/arrow-right-theme.png"
+                                    className="main-header__colln-dd-prd-wide-content-top-icon"
+                                  />
+                                </div>
+                                <p className="main-header__colln-dd-prd-wide-desc">
+                                  Check out our collection of minimal furniture
+                                </p>
+                              </div>
+                            </div>
+                            <div className="main-header__colln-dd-prd-wide">
+                              <div className="main-header__colln-dd-prd-wide-img-cont">
+                                <img
+                                  className="main-header__colln-dd-prd-wide-img"
+                                  src="./png/chair-bl.png"
+                                  alt="chair"
+                                />
+                              </div>
+                              <div className="main-header__colln-dd-prd-wide-content">
+                                <div className="main-header__colln-dd-prd-wide-content-top">
+                                  <h4 className="main-header__colln-dd-prd-wide-title">
+                                    Accent Chairs
+                                  </h4>
+                                  <img
+                                    src="./png/arrow-right-theme.png"
+                                    className="main-header__colln-dd-prd-wide-content-top-icon"
+                                  />
+                                </div>
+                                <p className="main-header__colln-dd-prd-wide-desc">
+                                  Check out our collection of minimal furniture
+                                </p>
+                              </div>
+                            </div>
+                            <div className="main-header__colln-dd-prd-wide">
+                              <div className="main-header__colln-dd-prd-wide-img-cont">
+                                <img
+                                  className="main-header__colln-dd-prd-wide-img"
+                                  src="./png/chair-bl.png"
+                                  alt="chair"
+                                />
+                              </div>
+                              <div className="main-header__colln-dd-prd-wide-content">
+                                <div className="main-header__colln-dd-prd-wide-content-top">
+                                  <h4 className="main-header__colln-dd-prd-wide-title">
+                                    Accent Chairs
+                                  </h4>
+                                  <img
+                                    src="./png/arrow-right-theme.png"
+                                    className="main-header__colln-dd-prd-wide-content-top-icon"
+                                  />
+                                </div>
+                                <p className="main-header__colln-dd-prd-wide-desc">
+                                  Check out our collection of minimal furniture
+                                </p>
+                              </div>
+                            </div>
+                            <div className="main-header__colln-dd-prd-wide">
+                              <div className="main-header__colln-dd-prd-wide-img-cont">
+                                <img
+                                  className="main-header__colln-dd-prd-wide-img"
+                                  src="./png/chair-bl.png"
+                                  alt="chair"
+                                />
+                              </div>
+                              <div className="main-header__colln-dd-prd-wide-content">
+                                <div className="main-header__colln-dd-prd-wide-content-top">
+                                  <h4 className="main-header__colln-dd-prd-wide-title">
+                                    Accent Chairs
+                                  </h4>
+                                  <img
+                                    src="./png/arrow-right-theme.png"
+                                    className="main-header__colln-dd-prd-wide-content-top-icon"
+                                  />
+                                </div>
+                                <p className="main-header__colln-dd-prd-wide-desc">
+                                  Check out our collection of minimal furniture
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="main-header__colln-dd-row-item">
+                          <div className="common-list">
+                            <h4 className="common-list__heading">More Links</h4>
+                            <ul className="common-list__items">
+                              <li className="common-list__item">My account</li>
+                              <li className="common-list__item">
+                                Track your order
+                              </li>
+                              <li className="common-list__item">FAQ</li>
+                              <li className="common-list__item">
+                                Payment Methods
+                              </li>
+                              <li className="common-list__item">
+                                Shipping Guide
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="main-header__colln-dd-row-item">
+                          <div className="common-list">
+                            <h4 className="common-list__heading">More Links</h4>
+                            <div className="main-header__colln-dd-single-prd">
+                              <div className="main-header__colln-dd-single-prd-img-cont">
+                                <img
+                                  src="./png/dog-statue.png"
+                                  className="main-header__colln-dd-single-prd-img"
+                                  alt="product"
+                                />
+                              </div>
+                              <div className="main-header__colln-dd-prd-wide-content">
+                                <div className="main-header__colln-dd-prd-wide-content-top">
+                                  <h4 className="main-header__colln-dd-prd-wide-title">
+                                    Accent Chairs
+                                  </h4>
+                                  <img
+                                    src="./png/arrow-right-theme.png"
+                                    className="main-header__colln-dd-prd-wide-content-top-icon"
+                                  />
+                                </div>
+                                <p className="main-header__colln-dd-prd-wide-desc">
+                                  Check out our collection of chairs.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="main-header__colln-dd-row-item">
+                          <div className="common-list">
+                            <h4 className="common-list__heading">More Links</h4>
+                            <div className="main-header__colln-dd-single-prd">
+                              <div className="main-header__colln-dd-single-prd-img-cont">
+                                <img
+                                  src="./png/dog-statue.png"
+                                  className="main-header__colln-dd-single-prd-img"
+                                  alt="product"
+                                />
+                              </div>
+                              <div className="main-header__colln-dd-prd-wide-content">
+                                <div className="main-header__colln-dd-prd-wide-content-top">
+                                  <h4 className="main-header__colln-dd-prd-wide-title">
+                                    Accent Chairs
+                                  </h4>
+                                  <img
+                                    src="./png/arrow-right-theme.png"
+                                    className="main-header__colln-dd-prd-wide-content-top-icon"
+                                  />
+                                </div>
+                                <p className="main-header__colln-dd-prd-wide-desc">
+                                  Check out our collection of chairs.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ) : null}
               </li>
             </Link>
             <Link href="/contact">

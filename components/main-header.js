@@ -8,14 +8,21 @@ export default function MainHeader() {
 
   const [showCart, setshowCart] = useState(false)
 
-  function useOutsideAlerter(ref) {
+  function useOutsideAlerter(ref, option) {
     useEffect(() => {
       /**
        * Alert if clicked on outside of element
        */
       function handleClickOutside(event) {
-        if (ref.current && !ref.current.contains(event.target)) {
-          setshowFullMenu(false)
+        if (option === 'fullMenu') {
+          if (ref.current && !ref.current.contains(event.target)) {
+            setshowFullMenu(false)
+          }
+        }
+        if (option === 'cart') {
+          if (ref.current && !ref.current.contains(event.target)) {
+            setshowCart(false)
+          }
         }
       }
 
@@ -29,7 +36,10 @@ export default function MainHeader() {
   }
 
   const fullMenuRef = useRef(null)
-  useOutsideAlerter(fullMenuRef)
+  useOutsideAlerter(fullMenuRef, 'fullMenu')
+
+  const cartRef = useRef(null)
+  useOutsideAlerter(cartRef, 'cart')
 
   return (
     <header className="main-header">
@@ -486,7 +496,7 @@ export default function MainHeader() {
             />
           </div>
           {showCart ? (
-            <div className="main-header__cart">
+            <div className="main-header__cart" ref={cartRef}>
               <div className="main-header__cart-items">
                 <div className="main-header__cart-item">
                   <div className="main-header__cart-item-img-cont">

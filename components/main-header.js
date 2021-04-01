@@ -6,6 +6,8 @@ export default function MainHeader() {
   const [collectionDropDown, setCollectionDropDown] = useState(false)
   const [showFullMenu, setshowFullMenu] = useState(false)
 
+  const [showCart, setshowCart] = useState(false)
+
   function useOutsideAlerter(ref) {
     useEffect(() => {
       /**
@@ -455,7 +457,16 @@ export default function MainHeader() {
               className="main-header__action-icon"
             />
           </div>
-          <div className="main-header__action">
+          <div
+            className="main-header__action"
+            onClick={() => {
+              if (showCart) {
+                setshowCart(false)
+              } else {
+                setshowCart(true)
+              }
+            }}
+          >
             <img
               src="./png/cart.png"
               alt="icon"
@@ -474,6 +485,333 @@ export default function MainHeader() {
               className="main-header__action-icon"
             />
           </div>
+          {showCart ? (
+            <div className="main-header__cart">
+              <div className="main-header__cart-items">
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      Laurel Chair Extra Large
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="main-header__cart-item">
+                  <div className="main-header__cart-item-img-cont">
+                    <img
+                      src="./png/chair-bl.png"
+                      className="main-header__cart-item-img"
+                      alt="img"
+                    />
+                  </div>
+                  <div className="main-header__cart-item-content">
+                    <h5 className="main-header__cart-item-name">
+                      69Dollar Chair
+                    </h5>
+                    <div className="main-header__cart-item-content-bottom">
+                      <div className="main-header__cart-item-actions">
+                        <span className="main-header__cart-item-qty-btn">
+                          -
+                        </span>
+                        <span className="main-header__cart-item-qty">5</span>
+                        <span className="main-header__cart-item-qty-btn">
+                          +
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="main-header__cart-bottom">
+                <div className="main-header__cart-bottom-total">
+                  <span className="main-header__cart-bottom-total--sm">
+                    Total:
+                  </span>
+                  <span className="main-header__cart-bottom-total--bg">
+                    $58260
+                  </span>
+                </div>
+                <button className="main-header__cart-bottom-btn">
+                  Checkout
+                </button>
+              </div>
+            </div>
+          ) : null}
         </div>
       </div>
 

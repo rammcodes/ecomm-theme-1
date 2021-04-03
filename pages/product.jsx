@@ -147,7 +147,7 @@ export default function Collection() {
               <div className="testimonial unshadow product-reviews__testi">
                 <div className="testimonial__img-cont">
                   <img
-                    src="./png/testi1.png"
+                    src="https://d33wubrfki0l68.cloudfront.net/f4f396d63bd5e4abc40e7473d10f6537ca7effce/2db05/assets/client-4.jpg"
                     alt="testimonial"
                     className="testimonial__img"
                   />
@@ -168,7 +168,7 @@ export default function Collection() {
               <div className="testimonial unshadow product-reviews__testi">
                 <div className="testimonial__img-cont">
                   <img
-                    src="./png/testi1.png"
+                    src="https://d33wubrfki0l68.cloudfront.net/f4f396d63bd5e4abc40e7473d10f6537ca7effce/2db05/assets/client-4.jpg"
                     alt="testimonial"
                     className="testimonial__img"
                   />
@@ -189,7 +189,7 @@ export default function Collection() {
               <div className="testimonial unshadow product-reviews__testi">
                 <div className="testimonial__img-cont">
                   <img
-                    src="./png/testi1.png"
+                    src="https://d33wubrfki0l68.cloudfront.net/f4f396d63bd5e4abc40e7473d10f6537ca7effce/2db05/assets/client-4.jpg"
                     alt="testimonial"
                     className="testimonial__img"
                   />
@@ -210,7 +210,7 @@ export default function Collection() {
               <div className="testimonial unshadow product-reviews__testi">
                 <div className="testimonial__img-cont">
                   <img
-                    src="./png/testi1.png"
+                    src="https://d33wubrfki0l68.cloudfront.net/f4f396d63bd5e4abc40e7473d10f6537ca7effce/2db05/assets/client-4.jpg"
                     alt="testimonial"
                     className="testimonial__img"
                   />

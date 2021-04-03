@@ -386,6 +386,12 @@
     font-size: 1.4rem;
     color: #333;
     margin-bottom: 1rem;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
   }
   &__cart-item-actions {
     display: flex;
@@ -790,16 +796,15 @@
     padding: 4rem;
   }
   &__img-cont {
-    width: 10%;
-    @include respond(phone) {
-      width: 15%;
-    }
+    width: 6rem;
   }
   &__img {
-    width: 100%;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50px;
   }
   &__content {
-    width: 90%;
     padding: 0 2rem;
   }
   &__name {

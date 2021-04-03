@@ -156,6 +156,10 @@
   }
   &__shop-dd-row-item {
     padding: 5rem 3rem;
+
+    @include respond(tab-land) {
+      padding: 4rem 2rem;
+    }
   }
   &__shop-dd-new-arrival-cont {
     display: grid;
@@ -201,6 +205,9 @@
   }
   &__colln-dd-row-item {
     padding: 5rem 3rem;
+    @include respond(tab-land) {
+      padding: 4rem 2rem;
+    }
   }
   &__colln-dd-prd-wide-row {
     display: grid;
@@ -230,10 +237,22 @@
     margin-right: 8px;
 
     color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
   }
   &__colln-dd-prd-wide-desc {
     color: #4d4d4d;
     font-size: 1rem;
+    @include respond(tab-land) {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
   }
   &__colln-dd-prd-wide-content-top {
     display: flex;

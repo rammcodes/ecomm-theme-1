@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Product() {
+export default function Product2() {
   return (
     <>
       <Head>
-        <title>Product Page</title>
+        <title>Product 2 Page</title>
       </Head>
-      <section className="product-main">
+      <section className="product2-main">
         <div className="container">
           <div className="nav-indicator mb-med">
             <div className="nav-indicator__item">
@@ -33,88 +33,96 @@ export default function Product() {
             </div>
           </div>
 
-          <div className="product-main__row">
-            <div className="product-main__row-item">
-              <div className="product-main__visual">
-                <div className="product-main__all-images">
-                  <div className="product-main__small-img-cont">
+          <div className="product2-main__row">
+            <div className="product2-main__row-item">
+              <div className="product2-main__visual">
+                <div className="product2-main__all-images">
+                  <div className="product2-main__small-img-cont">
                     <img
                       src="./png/prd-small-img.png"
                       alt="product image"
-                      className="product-main__small-img"
+                      className="product2-main__small-img"
                     />
                   </div>
-                  <div className="product-main__small-img-cont">
+                 
+                  <div className="product2-main__small-img-cont">
                     <img
                       src="./png/prd-small-img.png"
                       alt="product image"
-                      className="product-main__small-img"
+                      className="product2-main__small-img"
                     />
                   </div>
-                  <div className="product-main__small-img-cont">
+                  <div className="product2-main__small-img-cont">
                     <img
                       src="./png/prd-small-img.png"
                       alt="product image"
-                      className="product-main__small-img"
+                      className="product2-main__small-img"
+                    />
+                  </div>
+                  <div className="product2-main__small-img-cont">
+                    <img
+                      src="./png/prd-small-img.png"
+                      alt="product image"
+                      className="product2-main__small-img"
                     />
                   </div>
                 </div>
-                <div className="product-main__big-img-cont">
+                <div className="product2-main__big-img-cont">
                   <img
                     src="./png/prd-big-img.png"
                     alt="product image"
-                    className="product-main__big-img"
+                    className="product2-main__big-img"
                   />
                 </div>
               </div>
             </div>
-            <div className="product-main__row-item">
-              <h2 className="heading heading-section product-main__title">
+            <div className="product2-main__row-item">
+              <h2 className="heading heading-section product2-main__title">
                 <span className="heading-section__top">Orla Kiely</span>
                 <span className="heading-section__main">
                   Orla Kiely Laurel Chair
                 </span>
               </h2>
-              <p className="product-main__desc">
+              <p className="product2-main__desc">
                 The furniture we offer are very high quality, than other stores.
                 Take a look at our product line of high quality furniture.
               </p>
-              <div className="product-main__prices">
-                <span className="product-main__price-prev">
+              <div className="product2-main__prices">
+                <span className="product2-main__price-prev">
                   {' '}
                   <s> $890 </s>{' '}
                 </span>
-                <span className="product-main__price-curr">$678</span>
+                <span className="product2-main__price-curr">$678</span>
               </div>
-              <div className="product-main__cart-actions">
-                <div className="product-main__cart-counter">
-                  <span className="product-main__cart-counter-btn">-</span>
-                  <span className="product-main__cart-counter-txt">2</span>
-                  <span className="product-main__cart-counter-btn product-main__cart-counter-btn-dark">
+              <div className="product2-main__cart-actions">
+                <div className="product2-main__cart-counter">
+                  <span className="product2-main__cart-counter-btn">-</span>
+                  <span className="product2-main__cart-counter-txt">2</span>
+                  <span className="product2-main__cart-counter-btn product2-main__cart-counter-btn-dark">
                     +
                   </span>
                 </div>
-                <div className="product-main__cart-main">
-                  <button className="product-main__cart-main-btn">
+                <div className="product2-main__cart-main">
+                  <button className="product2-main__cart-main-btn">
                     Add to cart
                   </button>
-                  <button className="product-main__cart-main-btn product-main__cart-main-btn-lt">
+                  <button className="product2-main__cart-main-btn product2-main__cart-main-btn-lt">
                     Add to cart
                   </button>
                 </div>
               </div>
-              <div className="product-main__info">
-                <div className="product-main__info-opts">
-                  <button className="product-main__info-opt product-main__info-opt--active">
+              <div className="product2-main__info">
+                <div className="product2-main__info-opts">
+                  <button className="product2-main__info-opt product2-main__info-opt--active">
                     Product Details
                   </button>
-                  <button className="product-main__info-opt">
+                  <button className="product2-main__info-opt">
                     Specifications
                   </button>
-                  <button className="product-main__info-opt">Reviews</button>
+                  <button className="product2-main__info-opt">Reviews</button>
                 </div>
-                <div className="product-main__info-main">
-                  <p className="product-main__info-main-para">
+                <div className="product2-main__info-main">
+                  <p className="product2-main__info-main-para">
                     Most of us are familiar with the iconic design of the egg
                     shaped chair floating in the air. The Hanging Egg Chair is a
                     critically acclaimed design that has enjoyed praise
@@ -122,7 +130,7 @@ export default function Product() {
                     created by Nanna & Jørgen Ditzel in 1959. sustainable
                     products.
                   </p>
-                  <p className="product-main__info-main-para">
+                  <p className="product2-main__info-main-para">
                     The design of the Hanging Egg Chair has long since been
                     dubbed timeless whereas the material rattan had its golden
                     age in the 1960s when skilled wicker makers and architects

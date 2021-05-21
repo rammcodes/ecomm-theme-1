@@ -58,6 +58,13 @@ export default function Product() {
                       className="product5-main__small-img"
                     />
                   </div>
+                  <div className="product5-main__small-img-cont">
+                    <img
+                      src="./png/prd-big-img.png"
+                      alt="product image"
+                      className="product5-main__small-img"
+                    />
+                  </div>
                 </div>
                 <div className="product5-main__big-img-cont">
                   <img

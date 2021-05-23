@@ -51,30 +51,7 @@ export default function Header2() {
               <h1 className="main-header2__logo">Selential</h1>
             </Link>
           </div> 
-          {/* <div className="main-header2__top-contact">
-            <div className="main-header2__top-contact-main">
-              <div className="main-header2__top-contact-item">
-                <img
-                  src="./png/mail.png"
-                  className="main-header2__top-contact-item-img"
-                />
-                <span className="main-header2__top-contact-item-info">
-                  shanjairaj@gmail.com
-                </span>
-              </div>
-              <div className="main-header2__top-contact-item">
-                <img
-                  src="./png/phone.png"
-                  className="main-header2__top-contact-item-img"
-                />
-                <span className="main-header2__top-contact-item-info">
-                  (272) 471-2477
-                </span>
-              </div>
-            </div>
-            
-          </div>
-         */}
+         
           <div className="main-header2__top-main">
             <p className="main-header2__top-text">
               <span>Free shipping worldwide for orders over</span>

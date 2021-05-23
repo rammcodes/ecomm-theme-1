@@ -50,72 +50,71 @@ export default function Header4() {
               <h1 className="main-header4__logo">Selential</h1>
             </Link>
           </div>
-         <div className="main-header4__action-search-cont">
-              <img
-                src="./svg/search-gry.svg"
-                alt="icon"
-                className="main-header4__action-icon"
-              />
-              <input
-                placeholder="Search here..."
-                type="text"
-                className="main-header4__action-search"
-              />
-            </div>
-          
+          <div className="main-header4__action-search-cont">
+            <img
+              src="./svg/search-gry.svg"
+              alt="icon"
+              className="main-header4__action-icon"
+            />
+            <input
+              placeholder="Search here..."
+              type="text"
+              className="main-header4__action-search"
+            />
+          </div>
+
           <div className="main-header4__actions">
-          <nav className="main-header4__nav">
-            <ul className="main-header4__links">
-              <Link href="/">
-                <li className="main-header4__link">
-                  <span className="main-header4__link-text">Home</span>
-                </li>
-              </Link>
-              <Link href="/collection">
-                <li
-                  className="main-header4__link main-header4__link-dd"
-                  onMouseEnter={() => {
-                    setshopDropDown(true)
-                  }}
-                  onMouseLeave={() => {
-                    setshopDropDown(false)
-                  }}
-                >
-                  <span className="main-header4__link-text">Shop</span>
-                  <img
-                    src="./png/arrow-down.png"
-                    alt="arrow down"
-                    className="main-header4__link-icon"
-                  />
-                </li>
-              </Link>
-              <Link href="/collection">
-                <li
-                  className="main-header4__link  main-header4__link-dd"
-                  onMouseEnter={() => {
-                    setCollectionDropDown(true)
-                  }}
-                  onMouseLeave={() => {
-                    setCollectionDropDown(false)
-                  }}
-                >
-                  <span className="main-header4__link-text">Collection</span>
-                  <img
-                    src="./png/arrow-down.png"
-                    alt="arrow down"
-                    className="main-header4__link-icon"
-                  />
-                </li>
-              </Link>
-              <Link href="/contact">
-                <li className="main-header4__link">
-                  <span className="main-header4__link-text">Contact</span>
-                </li>
-              </Link>
-            </ul>
-          </nav>
-        
-          
+            <nav className="main-header4__nav">
+              <ul className="main-header4__links">
+                <Link href="/">
+                  <li className="main-header4__link">
+                    <span className="main-header4__link-text">Home</span>
+                  </li>
+                </Link>
+                <Link href="/collection">
+                  <li
+                    className="main-header4__link main-header4__link-dd"
+                    onMouseEnter={() => {
+                      setshopDropDown(true)
+                    }}
+                    onMouseLeave={() => {
+                      setshopDropDown(false)
+                    }}
+                  >
+                    <span className="main-header4__link-text">Shop</span>
+                    <img
+                      src="./png/arrow-down.png"
+                      alt="arrow down"
+                      className="main-header4__link-icon"
+                    />
+                  </li>
+                </Link>
+                <Link href="/collection">
+                  <li
+                    className="main-header4__link  main-header4__link-dd"
+                    onMouseEnter={() => {
+                      setCollectionDropDown(true)
+                    }}
+                    onMouseLeave={() => {
+                      setCollectionDropDown(false)
+                    }}
+                  >
+                    <span className="main-header4__link-text">Collection</span>
+                    <img
+                      src="./png/arrow-down.png"
+                      alt="arrow down"
+                      className="main-header4__link-icon"
+                    />
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="main-header4__link">
+                    <span className="main-header4__link-text">Contact</span>
+                  </li>
+                </Link>
+              </ul>
+            </nav>
+
             <div className="main-header4__action main-header4__action--res">
               <img
                 src="./png/search.png"

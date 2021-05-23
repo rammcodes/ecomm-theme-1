@@ -95,6 +95,7 @@
     padding: 0 10rem;
     display: flex;
     justify-content: space-between;
+    position: relative;
     @include respond(tab-land) {
       padding: 0 2rem;
     }
@@ -147,16 +148,17 @@
   &__colln-dd {
     z-index: 200;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 100%;
+    left: 10rem;
     width: 120rem;
-    transform: translateX(-50%);
+    
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 1s;
 
     @include respond(tab-land) {
-      width: 98%;
+      width: 95%;
+      left: 2rem;
     }
     @include respond(tab-port) {
       display: none;

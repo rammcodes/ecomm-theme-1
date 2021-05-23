@@ -6,7 +6,7 @@ import Header3 from './header3';
 export default function MainLayout({ children }) {
   return (
     <>
-      <Header3 />
+      <MainHeader />
       <div className="main-layout__main">{children}</div>
       <MainFooter />
     </>

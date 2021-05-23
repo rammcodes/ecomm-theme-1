@@ -44,67 +44,6 @@ export default function Header3() {
   return (
     <div className="main-header3-wrapper">
       <header className="main-header3">
-        {/* <div className="main-header3__top">
-          <div className="main-header3__top-main">
-            <p className="main-header3__top-text">
-              <span>Free shipping worldwide for orders over</span>
-              <span className="text__hl"> $600</span>
-            </p>
-          </div>
-          <div className="main-header3__top-contact">
-            <div className="main-header3__top-contact-main">
-              <div className="main-header3__top-contact-item">
-                <img
-                  src="./png/mail.png"
-                  className="main-header3__top-contact-item-img"
-                />
-                <span className="main-header3__top-contact-item-info">
-                  shanjairaj@gmail.com
-                </span>
-              </div>
-              <div className="main-header3__top-contact-item">
-                <img
-                  src="./png/phone.png"
-                  className="main-header3__top-contact-item-img"
-                />
-                <span className="main-header3__top-contact-item-info">
-                  (272) 471-2477
-                </span>
-              </div>
-            </div>
-            <div className="main-header3__top-contact-sub">
-              <div className="main-header3__top-lang-select-cont">
-                <select
-                  name="lang"
-                  id="cars"
-                  className="main-header3__top-lang-select"
-                >
-                  <option value="volvo">USD</option>
-                  <option value="saab">FR</option>
-                </select>
-              </div>
-              <div className="main-header3__top-socials">
-                <img
-                  src="./png/yt.png"
-                  className="main-header3__top-socials-img"
-                />
-                <img
-                  src="./png/twitter.png"
-                  className="main-header3__top-socials-img"
-                />
-                <img
-                  src="./png/yt.png"
-                  className="main-header3__top-socials-img"
-                />
-                <img
-                  src="./png/twitter.png"
-                  className="main-header3__top-socials-img"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-         */}
         <div className="main-header3__main">
           <div className="main-header3__logo-cont">
             <Link href="/">
@@ -161,6 +100,7 @@ export default function Header3() {
               </Link>
             </ul>
           </nav>
+         
           <div className="main-header3__actions">
             <div className="main-header3__action-search-cont">
               <img
@@ -174,6 +114,7 @@ export default function Header3() {
                 className="main-header3__action-search"
               />
             </div>
+          
             <div className="main-header3__action main-header3__action--res">
               <img
                 src="./png/search.png"

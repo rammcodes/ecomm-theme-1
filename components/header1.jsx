@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useState, useRef, useEffect } from 'react'
 
-export default function MainHeader() {
+export default function Header1() {
   const [shopDropDown, setshopDropDown] = useState(false)
   const [collectionDropDown, setCollectionDropDown] = useState(false)
   const [showFullMenu, setshowFullMenu] = useState(false)

@@ -14,7 +14,7 @@ export default function Home() {
      {/* <HomeHero1 />
      <HomeHero3 />
       */}
-     <HomeHero1 />
+     <HomeHero3 />
       <section className="main-products">
         <div className="container">
           <h2 className="heading heading-section heading-section--cent">

@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import HomeHero1 from '../components/home-hero1';
+import HomeHero2 from '../components/home-hero2';
+import HomeHero3 from '../components/home-hero3';
 
 export default function Home() {
   return (
@@ -8,49 +11,10 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
 
-      <section className="home-hero">
-        <div className="container home-hero__container">
-          <div className="home-hero__main">
-            <div className="home-hero__main-content">
-              <h2 className="hero-heading">
-                <span className="hero-heading__sub">Best offer of the Day</span>
-                <span className="hero-heading__main">
-                  Stella Accent Chair With Gold Finish Legs.
-                </span>
-              </h2>
-              <button className="btn-primary">
-                <span className="btn-primary__text">Start Shopping</span>
-                <img
-                  src="./png/arrow-right-white.png"
-                  alt="arrow"
-                  className="btn-primary__icon"
-                />
-              </button>
-            </div>
-          </div>
-          <div className="home-hero__visual">
-            <div className="home-hero__visual-img-cont">
-              <img
-                src="./png/chair.png"
-                alt="pic"
-                className="home-hero__visual-img"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="home-hero__slider-arrow home-hero__slider-arrow--left">
-          <img src="./png/arrow-left.png" alt="" />
-        </div>
-        <div className="home-hero__slider-arrow home-hero__slider-arrow--right">
-          <img src="./png/arrow-right.png" alt="" />
-        </div>
-        <div className="home-hero__circles">
-          <div className="home-hero__circle home-hero__circle--active"></div>
-          <div className="home-hero__circle"></div>
-          <div className="home-hero__circle"></div>
-          <div className="home-hero__circle"></div>
-        </div>
-      </section>
+     {/* <HomeHero1 />
+     <HomeHero3 />
+      */}
+     <HomeHero1 />
       <section className="main-products">
         <div className="container">
           <h2 className="heading heading-section heading-section--cent">

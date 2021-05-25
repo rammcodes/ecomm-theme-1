@@ -1,0 +1,86 @@
+.home-hero3 {
+    background: #f7f7f7;
+    position: relative;
+  
+    &__container {
+      
+    }
+    &__main {
+      padding: 11rem 0 12rem 0;
+      max-width: 60rem;
+      margin: auto;
+      text-align: center !important;
+      @include respond(phone) {
+        padding: 5rem 0;
+        text-align: left !important;
+      }
+    }
+
+    &__btn-primary {
+        margin: auto;
+        @include respond(phone) { 
+            margin: 0;
+        }
+    }
+  
+    &__slider-arrow {
+      background: #fff;
+      display: inline-block;
+      height: 5rem;
+      width: 5rem;
+      border-radius: 50px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 50%;
+  
+      transform: translateY(-50%);
+  
+      @include respond(tab-land) {
+        display: none;
+      }
+  
+      img {
+        width: 20%;
+      }
+      &--left {
+        left: 2rem;
+        @include respond(big-desktop) {
+          left: 5rem;
+        }
+      }
+      &--right {
+        right: 2rem;
+        @include respond(big-desktop) {
+          right: 5rem;
+        }
+      }
+    }
+    &__circles {
+      position: absolute;
+      top: 92%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      width: 10rem;
+      justify-content: space-around;
+      @include respond(tab-land) {
+        display: none;
+      }
+    }
+    &__circle {
+      width: 8px;
+      height: 8px;
+      border: 1px solid #ff3263;
+      border-radius: 100px;
+  
+      color: #ff3263;
+      &--active {
+        background: #ff3263;
+      }
+    }
+  }

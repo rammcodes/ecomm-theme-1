@@ -15,7 +15,7 @@ export default function Home() {
      {/* <HomeHero1 />
      <HomeHero3 />
       */}
-     <HomeHero4 />
+     <HomeHero1 />
      
       <section className="main-products">
         <div className="container">

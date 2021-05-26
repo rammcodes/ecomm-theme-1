@@ -3,6 +3,7 @@ import Link from 'next/link'
 import HomeHero1 from '../components/home-hero1';
 import HomeHero2 from '../components/home-hero2';
 import HomeHero3 from '../components/home-hero3';
+import HomeHero4 from '../components/home-hero4';
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
      {/* <HomeHero1 />
      <HomeHero3 />
       */}
-     <HomeHero1 />
+     <HomeHero4 />
+     
       <section className="main-products">
         <div className="container">
           <h2 className="heading heading-section heading-section--cent">
